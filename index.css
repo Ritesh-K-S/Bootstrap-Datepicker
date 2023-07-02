@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display:  flex;
+    justify-content: center;
+}
+
+#input-div{
+    margin-top: 180px;
+    border: 1px solid rgb(116, 116, 232);
+    padding: 3px 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#input-div input{
+    border:  none;
+    outline: none;
+    font-size: 20px;
+}
+
+#input-div label{
+    margin-bottom: 0px;
+}
+#input-div i{
+    font-size: 25px;
+    color: rgb(116, 116, 232);
+}
+
+.dis{
+    background-color: red !important;
+    color: white !important;
+}
+
+td{
+    padding: 9px;
+}
+
+.datepicker.datepicker-dropdown{
+    margin-top: 6px !important;
+}
+
+
+
